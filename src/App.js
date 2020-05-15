@@ -20,7 +20,7 @@ class App extends Component {
           </a>
           <Link to='/' className='navbar-brand'>MERN-Stack Todo App</Link>
           <div className='collapse navbar-collapse'>
-            <ul className='navbar-nav mr-auto'>
+            <ul className='navbar-nav ml-auto'>
               <li className='navbar-item'>
                 <Link to='/' className='nav-link'>Todos</Link>
               </li>
