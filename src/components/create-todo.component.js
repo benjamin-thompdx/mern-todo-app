@@ -63,6 +63,7 @@ export default class CreateTodo extends Component {
             <label>Description: </label>
             <input  type='text'
                     className='form-control'
+                    placeholder='Description'
                     value={this.state.todo_description}
                     onChange={this.onChangeTodoDescription}
                     />
@@ -71,6 +72,7 @@ export default class CreateTodo extends Component {
             <label>Responsible: </label>
             <input  type='text'
                     className='form-control'
+                    placeholder='Enter name'
                     value={this.state.todo_responsible}
                     onChange={this.onChangeTodoResponsible}
                     />
